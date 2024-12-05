@@ -6,7 +6,7 @@ export interface Pokemon {
 }
 
 export interface PokedexProps {
-  pokemons: Pokemon[];
+  pokemon: Pokemon[];
   exp: number;
   isWinner: boolean;
 }
