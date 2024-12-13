@@ -1,6 +1,6 @@
 # Pokemon: a React practice project.
 
-This is the first React project from The modern React Bootcamp by Colt Steele.
+This is simple small project to practice React-Redux implementation.
 
 ## Built with 🛠️
 
@@ -8,6 +8,7 @@ This is the first React project from The modern React Bootcamp by Colt Steele.
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Markup language.
 - [TypeScript](https://www.typescriptlang.org/) - A strongly typed programming language that builds on JavaScript.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management.
 - [Vite](https://vite.dev/) - Frontend build tool.
 
 ## Preview 👁️

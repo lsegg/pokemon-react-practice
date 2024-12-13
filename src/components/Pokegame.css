@@ -1,3 +1,19 @@
+.Pokegame-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pokegame-shuffle {
+    background: #76ae64;
+    color: #305922;
+    border: 2px solid #305922;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    font-weight: bold;
+}
+
 .Pokegame-content {
     display: flex;
     flex-direction: row;
@@ -6,4 +22,3 @@
     align-items: center;
     gap: 10px;
 }
-

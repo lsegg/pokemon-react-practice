@@ -10,16 +10,10 @@ const Pokedex = ({pokemon, exp, isWinner}: PokedexProps) => {
     return (
         <div className="Pokedex">
             <div className="Pokedex-header">
-                <div className="Pokedex-left">
-                    <div className="Pokedex-button"></div>
-                    <div className="Pokedex-data">
-                        <h2 className="Pokedex-title">Pokedex</h2>
-                        <p>Total Experience: {exp}</p>
-                        {title}
-                    </div>
-                </div>
-                <div className="Pokedex-right">
-                    <button className="Pokedex-shuffle">Shuffle</button>
+                <div className="Pokedex-data">
+                    <h2 className="Pokedex-title">Pokedex</h2>
+                    <p>Total Experience: {exp}</p>
+                    {title}
                 </div>
             </div>
             <div className="Pokedex-cards">
@@ -28,7 +22,7 @@ const Pokedex = ({pokemon, exp, isWinner}: PokedexProps) => {
                         key={p.id}
                         id={p.id}
                         name={p.name}
-                        type={p.type}
+                        types={p.types}
                         experience={p.experience}
                     />
                 ))}

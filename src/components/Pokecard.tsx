@@ -3,7 +3,7 @@ import './Pokecard.css';
 
 const POKE_API = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/`;
 
-const Pokecard = ({id, name, type, experience}: Pokemon) => {
+const Pokecard = ({id, name, types, experience}: Pokemon) => {
     const imgSrc = `${POKE_API}${id}.png`;
 
     return (
@@ -13,7 +13,7 @@ const Pokecard = ({id, name, type, experience}: Pokemon) => {
             </div>
             <h2 className="Pokecard-title">{name}</h2>
             <p className="Pokecard-data">
-                Type: {type} <br/>
+                Types: {types.join(', ')} <br/>
                 EXP: {experience}
             </p>
         </div>
